@@ -31,6 +31,8 @@
 <v t="leo.20210314011717.1"><vh>page4</vh>
 <v t="leo.20210314010033.1"><vh>page4-1</vh></v>
 <v t="leo.20210314011756.1"><vh>page4-2</vh></v>
+<v t="leo.20210314163936.1"><vh>page4-3</vh></v>
+<v t="leo.20210314164211.1"><vh>page4-4</vh></v>
 </v>
 <v t="leo.20210314004144.1"><vh>page5</vh>
 <v t="leo.20200818171138.1"><vh>page5-1</vh></v>
@@ -58,6 +60,7 @@
 <v t="leo.20210314021850.1"><vh>page8-3</vh></v>
 </v>
 <v t="leo.20210314022345.1"><vh>page9</vh></v>
+<v t="leo.20210314154231.1"><vh>page10</vh></v>
 </v>
 </v>
 </v>
@@ -309,8 +312,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20210314010033.1">&lt;section&gt;
 &lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/CS.png" width="200"/&gt;&lt;/p&gt;
-&lt;h6&gt;body→本體  BMotor→後馬達  Wheel→輪子  LMotor→左(葉片)馬達  LFan→左葉片
-MMotor→中間的馬達  MAxis→中間的軸  RMotor→右(葉片)馬達  RFan→右葉片&lt;/h6&gt;
+&lt;small&gt;body→本體    FMotor→前馬達   FWheel→前輪   LBMotor→右後馬達    LBWheel→右後輪子    LMotor→左(葉片)馬達    LFan→左葉片   MMotor→中間的馬達    MAxis→中間的軸    RBMotor→右後(葉片)馬達    RBWheel→右後輪   RMotor→右(葉片)馬達   RFan→右葉片&lt;/small&gt;
 &lt;/section&gt;
 
 </t>
@@ -318,7 +320,11 @@ MMotor→中間的馬達  MAxis→中間的軸  RMotor→右(葉片)馬達  RFan
      @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314011756.1"></t>
+<t tx="leo.20210314011756.1">&lt;section&gt;
+&lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" height="300" src="./../images/CS-1.png" width="500"/&gt;&lt;/p&gt;
+&lt;h4&gt;使用這3個按鈕移動位置和旋轉&lt;/h4&gt;
+&lt;/section&gt;</t>
 <t tx="leo.20210314012037.1">&lt;section&gt;
 &lt;h2&gt;解決方法&lt;/h2&gt;
 &lt;h6&gt;創建1個新的空倉儲(因為本人為組長，所以新辦1個github帳號做步驟)&lt;/h6&gt;
@@ -391,7 +397,30 @@ MMotor→中間的馬達  MAxis→中間的軸  RMotor→右(葉片)馬達  RFan
 </t>
 <t tx="leo.20210314022345.1">&lt;section&gt;
 &lt;h2&gt;心得&lt;/h2&gt;
+&lt;h4&gt;經過這次的2人協同，我學到了利用倉儲來達成2個人一起維護倉儲的方法，也透過合作來完成小組作業，有問題就互相幫忙，但現在還只是2個人維護1個倉儲，之後還有4人、8人，甚至以後業界1、2百人的時候，困難度就更高了，所以要搞清楚基本的知識，以後遇到問題才能解決。&lt;/h4&gt;
 &lt;/section&gt;
 </t>
+<t tx="leo.20210314154231.1">&lt;section&gt;
+&lt;h5&gt;參考資料&lt;/h5&gt;
+&lt;h6&gt;掃地機器人&lt;/h6&gt;
+&lt;h6&gt;1.&lt;a href="https://i.epochtimes.com/assets/uploads/2019/05/sweep-robot_292501286-600x400.jpg"&gt;https://i.epochtimes.com/assets/uploads/2019/05/sweep-robot_292501286-600x400.jpg&lt;/a&gt;&lt;/h6&gt;
+&lt;h6&gt;2.&lt;a href="https://i1.kknews.cc/SIG=3fkkqlh/47120001r47oqr0p4p5q.jpg"&gt;https://i1.kknews.cc/SIG=3fkkqlh/47120001r47oqr0p4p5q.jpg&lt;/a&gt;&lt;/h6&gt;
+&lt;h6&gt;CoppeliaSim基本操作&lt;/h6&gt;
+&lt;h6&gt;&lt;a href="https://www.bilibili.com/s/video/BV1yC4y1874J"&gt;https://www.bilibili.com/s/video/BV1yC4y1874J&lt;/a&gt;&lt;/h6&gt;
+&lt;h6&gt;版本衝突解決&lt;/h6&gt;
+&lt;h6&gt;&lt;a href="https://www.youtube.com/watch?v=0fKyPmNI1xg"&gt;https://www.youtube.com/watch?v=0fKyPmNI1xg&lt;/a&gt;&lt;/h6&gt;
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20210314163936.1">&lt;section&gt;
+&lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" height="300" src="./../images/CS-2.png" width="300"/&gt;&lt;/p&gt;
+&lt;h4&gt;設定物體&lt;/h4&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210314164211.1">&lt;section&gt;
+&lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="" height="300" src="./../images/CS-3.png" width="300"/&gt;&lt;/p&gt;
+&lt;h4&gt;設定馬達&lt;/h4&gt;
+&lt;/section&gt;</t>
 </tnodes>
 </leo_file>
