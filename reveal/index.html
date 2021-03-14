@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>reveal.js – The HTML Presentation Framework</title>
+    <title>stage1-bg1</title>
 
     <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
     <meta name="author" content="Hakim El Hattab">
@@ -25,407 +25,191 @@
     <!-- Any section element inside of this container is displayed as a slide -->
     <div class="slides">
         <section>
-            <a href="https://revealjs.com">
-                <img src="https://static.slid.es/reveal/logo-v1/reveal-white-text.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
-            </a>
-            <h3>The HTML Presentation Framework</h3>
+            <h1>協同產品設計實習</h1>
+            <h2>stage1-bg1</h2>
             <p>
-                <small>Created by <a href="http://hakim.se">Hakim El Hattab</a> and <a href="https://github.com/hakimel/reveal.js/graphs/contributors">contributors</a></small>
+                <small>Created by <a href="https://github.com/40823245/stage1-bg1">40823245</a> and <a href="https://github.com/40823251/stage1-bg1">40823251</a></small>
             </p>
         </section>
 
         <section>
-            <h2>Hello There</h2>
-            <p>
-                reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-            </p>
-        </section>
-
-        <!-- Example of nested vertical slides -->
-        <section>
-            <section>
-                <h2>Vertical Slides</h2>
-                <p>Slides can be nested inside of each other.</p>
-                <p>Use the <em>Space</em> key to navigate through all slides.</p>
-                <br>
-                <a href="#" class="navigate-down">
-                    <img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
-                </a>
-            </section>
-            <section>
-                <h2>Basement Level 1</h2>
-                <p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-            </section>
-            <section>
-                <h2>Basement Level 2</h2>
-                <p>That's it, time to go back up.</p>
-                <br>
-                <a href="#/2">
-                    <img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
-                </a>
-            </section>
+            <h2>掃地機器人</h2>
+            <p><img alt="" height="300" src="./../images/SR.png" width="300"/><img alt="" height="300" src="./../images/SR-1.png" width="300"/></p>
+            <h4>動機:利用自動化機械結構來滿足靠人力打掃家中的需求，並實現節省時間及勞力的願景。</h4>
         </section>
 
         <section>
-            <h2>Slides</h2>
-            <p>
-                Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="https://slides.com" target="_blank">https://slides.com</a>.
-            </p>
-        </section>
-
-        <section data-auto-animate>
-            <h2 data-id="code-title">Pretty Code</h2>
-            <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
-                import React, { useState } from 'react';
-
-                function Example() {
-                  const [count, setCount] = useState(0);
-
-                  return (
-                    ...
-                  );
-                }
-            </code></pre>
-            <p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
-        </section>
-
-        <section data-auto-animate>
-            <h2 data-id="code-title">With animations</h2>
-            <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24">
-                import React, { useState } from 'react';
-
-                function Example() {
-                  const [count, setCount] = useState(0);
-
-                  return (
-                    &lt;div&gt;
-                      &lt;p&gt;You clicked {count} times&lt;/p&gt;
-                      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
-                        Click me
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  );
-                }
-
-                function SecondExample() {
-                  const [count, setCount] = useState(0);
-
-                  return (
-                    &lt;div&gt;
-                      &lt;p&gt;You clicked {count} times&lt;/p&gt;
-                      &lt;button onClick={() =&gt; setCount(count + 1)}&gt;
-                        Click me
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  );
-                }
-            </code></pre>
+        <h1>構造原理</h1>
+        <h2>使用前面2個葉片將垃圾灰塵等細屑掃入後方的滾軸，由滾軸將其帶入內部，由1個前輪和1組連通軸輪帶動整部機器前進</h2>
         </section>
 
         <section>
-            <h2>Point of View</h2>
-            <p>
-                Press <strong>ESC</strong> to enter the slide overview.
-            </p>
-            <p>
-                Hold down the <strong>alt</strong> key (<strong>ctrl</strong> in Linux) and click on any element to zoom towards it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Click again to zoom back out.
-            </p>
-            <p>
-                (NOTE: Use ctrl + click in Linux.)
-            </p>
-        </section>
-
-        <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-            <h2>Auto-Animate</h2>
-            <p>Automatically animate matching elements across slides with <a href="https://revealjs.com/auto-animate/">Auto-Animate</a>.</p>
-            <div class="r-hstack justify-center">
-                <div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-                <div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-                <div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"></div>
-            </div>
-        </section>
-        <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-            <div class="r-hstack justify-center">
-                <div data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"></div>
-                <div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"></div>
-                <div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"></div>
-            </div>
-            <h2 style="margin-top: 20px;">Auto-Animate</h2>
-        </section>
-        <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
-            <div class="r-stack">
-                <div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"></div>
-                <div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"></div>
-                <div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"></div>
-            </div>
-            <h2 style="margin-top: 20px;">Auto-Animate</h2>
-        </section>
-
-        <section>
-            <h2>Touch Optimized</h2>
-            <p>
-                Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-            </p>
-        </section>
-
-        <section data-markdown>
-            <script type="text/template">
-                ## Markdown support
-
-                Write content using inline or external Markdown.
-                Instructions and more info available in the [readme](https://revealjs.com/markdown/).
-
-                ```[]
-                <section data-markdown>
-                  ## Markdown support
-
-                  Write content using inline or external Markdown.
-                  Instructions and more info available in the [readme](https://revealjs.com/markdown/).
-                </section>
-                ```
-            </script>
-        </section>
-
-        <section>
-             <section id="fragments">
-                 <h2>Fragments</h2>
-                 <p>Hit the next arrow...</p>
-                 <p class="fragment">... to step through ...</p>
-                 <p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-                 <aside class="notes">
-                     This slide has fragments which are also stepped through in the notes window.
-                 </aside>
-             </section>
-              
              <section>
-                 <h2>Fragment Styles</h2>
-                 <p>There's different types of fragments, like:</p>
-                 <p class="fragment grow">grow</p>
-                 <p class="fragment shrink">shrink</p>
-                 <p class="fragment fade-out">fade-out</p>
-                 <p>
-                     <span style="display: inline-block;" class="fragment fade-right">fade-right, </span>
-                     <span style="display: inline-block;" class="fragment fade-up">up, </span>
-                     <span style="display: inline-block;" class="fragment fade-down">down, </span>
-                     <span style="display: inline-block;" class="fragment fade-left">left</span>
-                 </p>
-                 <p class="fragment fade-in-then-out">fade-in-then-out</p>
-                 <p class="fragment fade-in-then-semi-out">fade-in-then-semi-out</p>
-                 <p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span> <span class="fragment highlight-green">green</span></p>
+             <h2>結構零件圖</h2>
+             <h3>本體(body)</h3>
+             <p><img alt="" height="300" src="./../images/SR.png" width="300"/></p>
+             <h5>掃地機器人的身體，藉由身上的凹槽感測身邊有無障礙物</h5>
+             </section>
+
+             <section>
+             <h3>葉片(Fan)</h3>
+             <p><img alt="" height="300" src="./../images/SR-3.png" width="300"/></p>
+             <h5>將垃圾灰塵等掃入的主要零件，由3隻刷子構成</h5>
+             </section>
+             <section>
+             <h3>前輪(Front Wheel)</h3>
+             <p><img alt="" height="300" src="./../images/SR-4.png" width="300"/></p>
+             <h5>支撐本體前面並帶動前進</h5>
+             </section>
+             <section>
+             <h3>內部滾輪(Internal Scroll Wheel)</h3>
+             <p><img alt="" height="300" src="./../images/SR-5.png" width="300"/></p>
+             <h5>把東西掃入和移除的構造</h5>
+             </section>
+             <section>
+             <h3>後輪(Back Wheel)</h3>
+             <p><img alt="" height="300" src="./../images/SR-6.png" width="300"/></p>
+             <h5>帶動本體前進的主要來源</h5>
              </section>
         </section>
+        <section>
+             <section>
+             <h2>CoppeliaSim模擬</h2>
+             <p><img alt="" height="300" src="./../images/CS.png" width="200"/></p>
+             <small>body→本體    FMotor→前馬達   FWheel→前輪   LBMotor→右後馬達    LBWheel→右後輪子    LMotor→左(葉片)馬達    LFan→左葉片   MMotor→中間的馬達    MAxis→中間的軸    RBMotor→右後(葉片)馬達    RBWheel→右後輪   RMotor→右(葉片)馬達   RFan→右葉片</small>
+             </section>
 
-        <section id="transitions">
-            <h2>Transition Styles</h2>
-            <p>
-                You can select from different transitions, like: <br>
-                <a href="?transition=none#/transitions">None</a> -
-                <a href="?transition=fade#/transitions">Fade</a> -
-                <a href="?transition=slide#/transitions">Slide</a> -
-                <a href="?transition=convex#/transitions">Convex</a> -
-                <a href="?transition=concave#/transitions">Concave</a> -
-                <a href="?transition=zoom#/transitions">Zoom</a>
-            </p>
-        </section>
-
-        <section id="themes">
-            <h2>Themes</h2>
-            <p>
-                reveal.js comes with a few themes built in: <br>
-                <!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-                <a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-            </p>
+             <section>
+             <h2>CoppeliaSim模擬</h2>
+             <p><img alt="" height="300" src="./../images/CS-1.png" width="500"/></p>
+             <h4>使用這3個按鈕移動位置和旋轉</h4>
+             </section>
+             <section>
+             <h2>CoppeliaSim模擬</h2>
+             <p><img alt="" height="300" src="./../images/CS-2.png" width="300"/></p>
+             <h4>設定物體</h4>
+             </section>
+             <section>
+             <h2>CoppeliaSim模擬</h2>
+             <p><img alt="" height="300" src="./../images/CS-3.png" width="300"/></p>
+             <h4>設定馬達</h4>
+             </section>
         </section>
         <section>
-            <section data-background="#dddddd">
-                <h2>Slide Backgrounds</h2>
-                <p>
-                    Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-                </p>
-                <a href="#" class="navigate-down">
-                    <img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
-                </a>
-            </section>
-            <section data-background="https://static.slid.es/reveal/image-placeholder.png">
-                <h2>Image Backgrounds</h2>
-                <pre><code class="hljs html">&lt;section data-background="image.png"&gt;</code></pre>
-            </section>
-            <section data-background="https://static.slid.es/reveal/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-                <h2>Tiled Backgrounds</h2>
-                <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-            </section>
-            <section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4" data-background-color="#000000">
-                <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-                    <h2>Video Backgrounds</h2>
-                    <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-                </div>
-            </section>
-            <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
-                <h2>... and GIFs!</h2>
-            </section>
-        </section>
+             <section>
+             <h2>CoppeliaSim模擬</h2>
+             <h5>3/6初次模擬</h5>
+             <h6>第1版</h6>
+             <p><img alt="" height="300" src="./../images/First-ver.gif" width="600"/></p>
+             <h6>問題:前面無任何支撐物，所以導致本體一直前頃</h6>
+             </section>
 
-        <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-            <h2>Background Transitions</h2>
-            <p>
-                Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-            </p>
-            <pre><code class="hljs javascript">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-        </section>
+             <section>
+             <h5>3/6二次模擬</h5>
+             <h6>第2版</h6>
+             <p><img alt="" height="300" src="./../images/Second-ver.gif" width="600"/></p>
+             <h6>問題:雖然增加了支撐物，但會影響前進</h6>
+             </section>
 
-        <section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-            <h2>Background Transitions</h2>
-            <p>
-                You can override background transitions per-slide.
-            </p>
-            <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-        </section>
-
-        <section data-background-iframe="https://hakim.se" data-background-interactive>
-            <div style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
-                <h2>Iframe Backgrounds</h2>
-                <p>Since reveal.js runs on the web, you can easily embed other web content. Try interacting with the page in the background.</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Marvelous List</h2>
-            <ul>
-                <li>No order here</li>
-                <li>Or here</li>
-                <li>Or here</li>
-                <li>Or here</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Fantastic Ordered List</h2>
-            <ol>
-                <li>One is smaller than...</li>
-                <li>Two is smaller than...</li>
-                <li>Three!</li>
-            </ol>
-        </section>
-
-        <section>
-            <h2>Tabular Tables</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Item</th>
-                        <th>Value</th>
-                        <th>Quantity</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Apples</td>
-                        <td>$1</td>
-                        <td>7</td>
-                    </tr>
-                    <tr>
-                        <td>Lemonade</td>
-                        <td>$2</td>
-                        <td>18</td>
-                    </tr>
-                    <tr>
-                        <td>Bread</td>
-                        <td>$3</td>
-                        <td>2</td>
-                    </tr>
-                </tbody>
-            </table>
+             <section>
+             <h5>3/6三次模擬</h5>
+             <h6>第3版</h6>
+             <p><img alt="" height="300" src="./../images/Third-ver.gif" width="600"/></p>
+             <h6>將支撐物改為輪子，但因前後輪馬達不一致，導致打轉的情況</h6>
+             </section>
+             <section>
+             <h5>3/7四次模擬</h5>
+             <h6>第4版(最終版)</h6>
+             <p><img alt="" height="300" src="./../images/Fourth-ver.gif" width="600"/></p>
+             <h6>能夠正常前進，葉片和內部滾輪也運作正常</h6>
+             </section>
         </section>
         <section>
-            <h2>Clever Quotes</h2>
-            <p>
-                These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">The nice thing about standards is that there are so many to choose from</q> and block:
-            </p>
-            <blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-                &ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-                reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-            </blockquote>
+             <section>
+             <h2>問題!小組倉儲維護</h2>
+             <h3>主旨</h3>
+             <h6>由組長和組員一同維護小組倉儲，各自推送各自所做的部分，但是我們卻沒有同步，導致只有組長的倉儲有在運作</h6>
+             </section>
+             <section>
+             <h2>解決方法</h2>
+             <h6>創建1個新的空倉儲(因為本人為組長，所以新辦1個github帳號做步驟)</h6>
+             <h6><span>Repository name輸入名稱，什麼都不要選直接create</span></h6>
+             <p><img alt="" height="300" src="./../images/remote.png" width="500"/></p>
+             </section>
+             <section>
+             <h6>進到tmp執行git clone --recurse-submodules 小組網址(因我tmp有stage1-bg1了，所以直接在data做)</h6>
+             <p><img alt="" height="300" src="./../images/remote-1.png" width="500"/></p>
+             </section>
+             <section>
+             <h6>進到資料夾，執行git remote add 「remote名稱」 個人github倉儲網址.git(剛剛創的空倉儲)</h6>
+             <p><img alt="" height="50" src="./../images/remote-2.png" width="550"/></p>
+             <h6>可看到多了remote(如有做ssh，請自行在remote底下新增，我用新帳號所以沒有使用)</h6>
+             <p><img alt="" height="300" src="./../images/remote-5.png" width="400"/></p>
+             </section>
+             <section>
+             <h6>執行git push 剛剛「remote名稱」</h6>
+             <p><img alt="" height="200" src="./../images/remote-3.png" width="500"/></p>
+             <h4>成功後到settings設定</h4>
+             <p><img alt="" height="200" src="./../images/remote-7.png" width="700"/></p>
+             </section>
+             <section>
+             <h6>把branch設為main並save</h6>
+             <p><img alt="" height="200" src="./../images/remote-4.png" width="700"/></p>
+             <h4>回去看是否有綠勾</h4>
+             <p><img alt="" height="200" src="./../images/remote-6.png" width="700"/></p>
+             </section>
         </section>
         <section>
-            <h2>Intergalactic Interconnections</h2>
-            <p>
-                You can link between slides internally,
-                <a href="#/2/3">like this</a>.
-            </p>
+             <section>
+             <h2>分組有效方案</h2>
+             <h3>我認為自選組員比亂數分組好很多，因為自選的組員都是互相有共識才會同意一起做協同，但是利用人工的方式分組太耗費精神和人力了，所以需要藉由程式來代工，但是用程式來亂數分組就可能造成合作上的困擾，希望能找到解決辦法。</h3>
+             </section>
+             <section>
+             <h6>40823245測試分組程式</h6>
+             <p><img alt="" height="400" src="./../images/group text.png" width="700"/></p>
+             </section>
+             <section>
+             <h6>40823245測試分組程式</h6>
+             <p><img alt="" height="400" src="./../images/group text-1.png" width="700"/></p>
+             </section>
+             <section>
+             <h6>由上圖可知，我們能藉由Redis、nodejs和ethercalc來跑人工分組的程式，但還是需要改善，可能有人沒有組別要加到別組或學號的跑程式問題。</h6>
+             </section>
         </section>
-
         <section>
-            <h2>Speaker View</h2>
-            <p>There's a <a href="https://revealjs.com/speaker-view/">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-            <p>Press the <em>S</em> key to try it out.</p>
+             <section>
+             <h2>Leo Editor的採用?</h2>
+             <h3>採用</h3>
+             <h6>優點:能夠留下作變更的時間、操作分頁明確、使用reveal還能當簡報、能連結到自己的論壇</h6>
 
-            <aside class="notes">
-                Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-            </aside>
+             <h6>缺點:上傳前要跑程式指令(local-blog、github-blog)、如2人以上同時使用，可能會造成頁面ERROR</h6>
+             </section>
+             <section>
+             <h3>不採用</h3>
+             <h6>優點:編輯完直接案就能轉靜態，不須打程式指令</h6>
+
+             <h6>缺點:少會一種編輯方式</h6>
+             </section>
+             <section>
+             <h3>結論</h3>
+             <h4>在使用LEO EDITOR上能夠方便清楚的知道自己每個頁面的排版、位置，來幫助自己來編輯網頁，還有簡報和論壇的功能，怎麼想都是使用LEO EDITOR較好。</h4>
+             </section>
         </section>
         <section>
-            <h2>Export to PDF</h2>
-            <p>Presentations can be <a href="https://revealjs.com/pdf-export/">exported to PDF</a>, here's an example:</p>
-            <iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+        <h2>心得</h2>
+        <h4>經過這次的2人協同，我學到了利用倉儲來達成2個人一起維護倉儲的方法，也透過合作來完成小組作業，有問題就互相幫忙，但現在還只是2個人維護1個倉儲，之後還有4人、8人，甚至以後業界1、2百人的時候，困難度就更高了，所以要搞清楚基本的知識，以後遇到問題才能解決。</h4>
         </section>
-
         <section>
-            <h2>Global State</h2>
-            <p>
-                Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-                will be added as a class to the document element when the slide is open. This lets you
-                apply broader style changes, like switching the page background.
-            </p>
+        <h5>參考資料</h5>
+        <h6>掃地機器人</h6>
+        <h6>1.<a href="https://i.epochtimes.com/assets/uploads/2019/05/sweep-robot_292501286-600x400.jpg">https://i.epochtimes.com/assets/uploads/2019/05/sweep-robot_292501286-600x400.jpg</a></h6>
+        <h6>2.<a href="https://i1.kknews.cc/SIG=3fkkqlh/47120001r47oqr0p4p5q.jpg">https://i1.kknews.cc/SIG=3fkkqlh/47120001r47oqr0p4p5q.jpg</a></h6>
+        <h6>CoppeliaSim基本操作</h6>
+        <h6><a href="https://www.bilibili.com/s/video/BV1yC4y1874J">https://www.bilibili.com/s/video/BV1yC4y1874J</a></h6>
+        <h6>版本衝突解決</h6>
+        <h6><a href="https://www.youtube.com/watch?v=0fKyPmNI1xg">https://www.youtube.com/watch?v=0fKyPmNI1xg</a></h6>
         </section>
 
-        <section data-state="customevent">
-            <h2>State Events</h2>
-            <p>
-                Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-            </p>
-            <pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-        Reveal.on( 'customevent', function() {
-        console.log( '"customevent" has fired' );
-        } );
-            </code></pre>
-        </section>
-
-        <section>
-            <h2>Take a Moment</h2>
-            <p>
-                Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-            </p>
-        </section>
-
-        <section>
-            <h2>Much more</h2>
-            <ul>
-                <li>Right-to-left support</li>
-                <li><a href="https://revealjs.com/api/">Extensive JavaScript API</a></li>
-                <li><a href="https://revealjs.com/auto-slide/">Auto-progression</a></li>
-                <li><a href="https://revealjs.com/backgrounds/#parallax-background">Parallax backgrounds</a></li>
-                <li><a href="https://revealjs.com/keyboard/">Custom keyboard bindings</a></li>
-            </ul>
-        </section>
-
-        <section style="text-align: left;">
-            <h1>THE END</h1>
-            <p>
-                - <a href="https://slides.com">Try the online editor</a> <br>
-                - <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-            </p>
-        </section>
     </div>
 </div>
     <script src="dist/reveal.js"></script>
