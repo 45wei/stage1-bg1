@@ -414,12 +414,12 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20210314163936.1">&lt;section&gt;
 &lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" height="300" src="./../images/CS-2.png" width="300"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="300" src="./../images/CS-2.png" width="300"/&gt;&lt;img alt="" height="300" src="./../images/CS-4.png" width="300"/&gt;&lt;/p&gt;
 &lt;h4&gt;設定物體&lt;/h4&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210314164211.1">&lt;section&gt;
 &lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="" height="300" src="./../images/CS-3.png" width="300"/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" height="300" src="./../images/CS-3.png" width="300"/&gt;&lt;img alt="" height="300" src="./../images/CS-5.png" width="300"/&gt;&lt;/p&gt;
 &lt;h4&gt;設定馬達&lt;/h4&gt;
 &lt;/section&gt;</t>
 </tnodes>
