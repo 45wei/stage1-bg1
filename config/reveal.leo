@@ -18,9 +18,15 @@
 <v t="leo.20200818165413.1"><vh>body</vh>
 <v t="leo.20200818170041.1"><vh>reveal div</vh>
 <v t="leo.20200818170222.1"><vh>slides div</vh>
-<v t="leo.20200818170328.1"><vh>投影幕封面</vh></v>
-<v t="leo.20200818170535.1"><vh>page1</vh></v>
-<v t="leo.20200818170636.1"><vh>page2</vh></v>
+<v t="leo.20210317224500.1"><vh>投影幕封面</vh>
+<v t="leo.20200818170328.1"><vh>投影幕封面-1</vh></v>
+</v>
+<v t="leo.20210317224600.1"><vh>page1</vh>
+<v t="leo.20200818170535.1"><vh>page1-1</vh></v>
+</v>
+<v t="leo.20210317224603.1"><vh>page2</vh>
+<v t="leo.20200818170636.1"><vh>page2-1</vh></v>
+</v>
 <v t="leo.20210314002422.1"><vh>page3</vh>
 <v t="leo.20200818170725.1"><vh>page3-1</vh></v>
 <v t="leo.20210314001939.1"><vh>page3-2</vh></v>
@@ -59,8 +65,12 @@
 <v t="leo.20210314021119.1"><vh>page8-2</vh></v>
 <v t="leo.20210314021850.1"><vh>page8-3</vh></v>
 </v>
-<v t="leo.20210314022345.1"><vh>page9</vh></v>
-<v t="leo.20210314154231.1"><vh>page10</vh></v>
+<v t="leo.20210317225202.1"><vh>page9</vh>
+<v t="leo.20210314022345.1"><vh>page9-1</vh></v>
+</v>
+<v t="leo.20210317225211.1"><vh>page10</vh>
+<v t="leo.20210314154231.1"><vh>page10-1</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -172,7 +182,6 @@ vertical: body pane on the botton</t>
             progress: true,
             center: true,
             hash: true,
-
             // Learn about plugins: https://revealjs.com/plugins/
             plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
         });
@@ -206,7 +215,7 @@ vertical: body pane on the botton</t>
 &lt;div class="slides"&gt;
     @others
 &lt;/div&gt;</t>
-<t tx="leo.20200818170328.1">&lt;section&gt;
+<t tx="leo.20200818170328.1">&lt;section data-transition="slide" data-background="#696969" data-background-transition="convex"&gt;
     &lt;h1&gt;協同產品設計實習&lt;/h1&gt;
     &lt;h2&gt;stage1-bg1&lt;/h2&gt;
     &lt;p&gt;
@@ -215,20 +224,20 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20200818170535.1">&lt;section&gt;
+<t tx="leo.20200818170535.1">&lt;section data-transition="slide" data-background="#696969" data-background-transition="convex"&gt;
     &lt;h2&gt;掃地機器人&lt;/h2&gt;
     &lt;p&gt;&lt;img alt="" height="300" src="./../images/SR.png" width="300"/&gt;&lt;img alt="" height="300" src="./../images/SR-1.png" width="300"/&gt;&lt;/p&gt;
     &lt;h4&gt;動機:利用自動化機械結構來滿足靠人力打掃家中的需求，並實現節省時間及勞力的願景。&lt;/h4&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20200818170636.1">&lt;section&gt;
+<t tx="leo.20200818170636.1">&lt;section data-transition="slide" data-background="#696969" data-background-transition="convex"&gt;
 &lt;h1&gt;構造原理&lt;/h1&gt;
 &lt;h2&gt;使用前面2個葉片將垃圾灰塵等細屑掃入後方的滾軸，由滾軸將其帶入內部，由1個前輪和1組連通軸輪帶動整部機器前進&lt;/h2&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20200818170725.1">&lt;section&gt;
+<t tx="leo.20200818170725.1">&lt;section data-transition="slide" data-background="#008080" data-background-transition="convex"&gt;
 &lt;h2&gt;結構零件圖&lt;/h2&gt;
 &lt;h3&gt;本體(body)&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/SR.png" width="300"/&gt;&lt;/p&gt;
@@ -236,7 +245,7 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20200818171138.1">&lt;section&gt;
+<t tx="leo.20200818171138.1">&lt;section data-transition="slide" data-background="#8B4513" data-background-transition="convex"&gt;
 &lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
 &lt;h5&gt;3/6初次模擬&lt;/h5&gt;
 &lt;h6&gt;第1版&lt;/h6&gt;
@@ -245,7 +254,7 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20200818171215.1">&lt;section&gt;
+<t tx="leo.20200818171215.1">&lt;section data-transition="slide" data-background="#8B4513" data-background-transition="convex"&gt;
 &lt;h5&gt;3/6二次模擬&lt;/h5&gt;
 &lt;h6&gt;第2版&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/Second-ver.gif" width="600"/&gt;&lt;/p&gt;
@@ -253,129 +262,135 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20200818171244.1">&lt;section&gt;
+<t tx="leo.20200818171244.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
      @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20200818171312.1">&lt;section&gt;
+<t tx="leo.20200818171312.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
      @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314001939.1">&lt;section&gt;
+<t tx="leo.20210314001939.1">&lt;section data-transition="slide" data-background="#008080" data-background-transition="convex"&gt;
 &lt;h3&gt;葉片(Fan)&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/SR-3.png" width="300"/&gt;&lt;/p&gt;
 &lt;h5&gt;將垃圾灰塵等掃入的主要零件，由3隻刷子構成&lt;/h5&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314002422.1">&lt;section&gt;
+<t tx="leo.20210314002422.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
      @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314002724.1">&lt;section&gt;
+<t tx="leo.20210314002724.1">&lt;section data-transition="slide" data-background="#008080" data-background-transition="convex"&gt;
 &lt;h3&gt;前輪(Front Wheel)&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/SR-4.png" width="300"/&gt;&lt;/p&gt;
 &lt;h5&gt;支撐本體前面並帶動前進&lt;/h5&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314002914.1">&lt;section&gt;
+<t tx="leo.20210314002914.1">&lt;section data-transition="slide" data-background="#008080" data-background-transition="convex"&gt;
 &lt;h3&gt;內部滾輪(Internal Scroll Wheel)&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/SR-5.png" width="300"/&gt;&lt;/p&gt;
 &lt;h5&gt;把東西掃入和移除的構造&lt;/h5&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314003129.1">&lt;section&gt;
+<t tx="leo.20210314003129.1">&lt;section data-transition="slide" data-background="#008080" data-background-transition="convex"&gt;
 &lt;h3&gt;後輪(Back Wheel)&lt;/h3&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/SR-6.png" width="300"/&gt;&lt;/p&gt;
 &lt;h5&gt;帶動本體前進的主要來源&lt;/h5&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314004144.1">&lt;section&gt;
+<t tx="leo.20210314004144.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
      @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314004344.1">&lt;section&gt;
+<t tx="leo.20210314004344.1">&lt;section data-transition="slide" data-background="#8B4513" data-background-transition="convex"&gt;
 &lt;h5&gt;3/6三次模擬&lt;/h5&gt;
 &lt;h6&gt;第3版&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/Third-ver.gif" width="600"/&gt;&lt;/p&gt;
 &lt;h6&gt;將支撐物改為輪子，但因前後輪馬達不一致，導致打轉的情況&lt;/h6&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314004550.1">&lt;section&gt;
+<t tx="leo.20210314004550.1">&lt;section data-transition="slide" data-background="#8B4513" data-background-transition="convex"&gt;
 &lt;h5&gt;3/7四次模擬&lt;/h5&gt;
 &lt;h6&gt;第4版(最終版)&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/Fourth-ver.gif" width="600"/&gt;&lt;/p&gt;
 &lt;h6&gt;能夠正常前進，葉片和內部滾輪也運作正常&lt;/h6&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314005140.1">&lt;section&gt;
+<t tx="leo.20210314005140.1">&lt;section data-transition="slide" data-background="#006400" data-background-transition="convex"&gt;
 &lt;h2&gt;問題!小組倉儲維護&lt;/h2&gt;
 &lt;h3&gt;主旨&lt;/h3&gt;
 &lt;h6&gt;由組長和組員一同維護小組倉儲，各自推送各自所做的部分，但是我們卻沒有同步，導致只有組長的倉儲有在運作&lt;/h6&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314010033.1">&lt;section&gt;
+<t tx="leo.20210314010033.1">&lt;section data-transition="slide" data-background="#9400D3" data-background-transition="convex"&gt;
 &lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/CS.png" width="200"/&gt;&lt;/p&gt;
 &lt;small&gt;body→本體    FMotor→前馬達   FWheel→前輪   LBMotor→右後馬達    LBWheel→右後輪子    LMotor→左(葉片)馬達    LFan→左葉片   MMotor→中間的馬達    MAxis→中間的軸    RBMotor→右後(葉片)馬達    RBWheel→右後輪   RMotor→右(葉片)馬達   RFan→右葉片&lt;/small&gt;
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20210314011717.1">&lt;section&gt;
+<t tx="leo.20210314011717.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
      @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314011756.1">&lt;section&gt;
+<t tx="leo.20210314011756.1">&lt;section data-transition="slide" data-background="#9400D3" data-background-transition="convex"&gt;
 &lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/CS-1.png" width="500"/&gt;&lt;/p&gt;
 &lt;h4&gt;使用這3個按鈕移動位置和旋轉&lt;/h4&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314012037.1">&lt;section&gt;
+<t tx="leo.20210314012037.1">&lt;section data-transition="slide" data-background="#006400" data-background-transition="convex"&gt;
 &lt;h2&gt;解決方法&lt;/h2&gt;
 &lt;h6&gt;創建1個新的空倉儲(因為本人為組長，所以新辦1個github帳號做步驟)&lt;/h6&gt;
 &lt;h6&gt;&lt;span&gt;Repository name輸入名稱，什麼都不要選直接create&lt;/span&gt;&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/remote.png" width="500"/&gt;&lt;/p&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314012245.1">&lt;section&gt;
+<t tx="leo.20210314012245.1">&lt;section data-transition="slide" data-background="#006400" data-background-transition="convex"&gt;
 &lt;h6&gt;進到tmp執行git clone --recurse-submodules 小組網址(因我tmp有stage1-bg1了，所以直接在data做)&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/remote-1.png" width="500"/&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314012252.1">&lt;section&gt;
+<t tx="leo.20210314012252.1">&lt;section data-transition="slide" data-background="#006400" data-background-transition="convex"&gt;
 &lt;h6&gt;進到資料夾，執行git remote add 「remote名稱」 個人github倉儲網址.git(剛剛創的空倉儲)&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="50" src="./../images/remote-2.png" width="550"/&gt;&lt;/p&gt;
 &lt;h6&gt;可看到多了remote(如有做ssh，請自行在remote底下新增，我用新帳號所以沒有使用)&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/remote-5.png" width="400"/&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314012300.1">&lt;section&gt;
+<t tx="leo.20210314012300.1">&lt;section data-transition="slide" data-background="#006400" data-background-transition="convex"&gt;
 &lt;h6&gt;執行git push 剛剛「remote名稱」&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="200" src="./../images/remote-3.png" width="500"/&gt;&lt;/p&gt;
 &lt;h4&gt;成功後到settings設定&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="" height="200" src="./../images/remote-7.png" width="700"/&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314012445.1">&lt;section&gt;
+<t tx="leo.20210314012445.1">&lt;section data-transition="slide" data-background="#006400" data-background-transition="convex"&gt;
 &lt;h6&gt;把branch設為main並save&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="200" src="./../images/remote-4.png" width="700"/&gt;&lt;/p&gt;
 &lt;h4&gt;回去看是否有綠勾&lt;/h4&gt;
 &lt;p&gt;&lt;img alt="" height="200" src="./../images/remote-6.png" width="700"/&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314013047.1">&lt;section&gt;
+<t tx="leo.20210314013047.1">&lt;section data-transition="slide" data-background="#00008B" data-background-transition="convex"&gt;
 &lt;h2&gt;分組有效方案&lt;/h2&gt;
 &lt;h3&gt;我認為自選組員比亂數分組好很多，因為自選的組員都是互相有共識才會同意一起做協同，但是利用人工的方式分組太耗費精神和人力了，所以需要藉由程式來代工，但是用程式來亂數分組就可能造成合作上的困擾，希望能找到解決辦法。&lt;/h3&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314014907.1">&lt;section&gt;
+<t tx="leo.20210314014907.1">&lt;section data-transition="slide" data-background="#00008B" data-background-transition="convex"&gt;
 &lt;h6&gt;40823245測試分組程式&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="400" src="./../images/group text.png" width="700"/&gt;&lt;/p&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314015221.1">&lt;section&gt;
+<t tx="leo.20210314015221.1">&lt;section data-transition="slide" data-background="#00008B" data-background-transition="convex"&gt;
 &lt;h6&gt;40823245測試分組程式&lt;/h6&gt;
 &lt;p&gt;&lt;img alt="" height="400" src="./../images/group text-1.png" width="700"/&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314015350.1">&lt;section&gt;
+<t tx="leo.20210314015350.1">&lt;section data-transition="slide" data-background="#00008B" data-background-transition="convex"&gt;
 &lt;h6&gt;由上圖可知，我們能藉由Redis、nodejs和ethercalc來跑人工分組的程式，但還是需要改善，可能有人沒有組別要加到別組或學號的跑程式問題。&lt;/h6&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314015825.1">&lt;section&gt;
+<t tx="leo.20210314015825.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
      @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314015842.1">&lt;section&gt;
+<t tx="leo.20210314015842.1">&lt;section data-transition="slide" data-background="#800000" data-background-transition="convex"&gt;
 &lt;h2&gt;Leo Editor的採用?&lt;/h2&gt;
 &lt;h3&gt;採用&lt;/h3&gt;
 &lt;h6&gt;優點:能夠留下作變更的時間、操作分頁明確、使用reveal還能當簡報、能連結到自己的論壇&lt;/h6&gt;
@@ -383,24 +398,24 @@ vertical: body pane on the botton</t>
 &lt;h6&gt;缺點:上傳前要跑程式指令(local-blog、github-blog)、如2人以上同時使用，可能會造成頁面ERROR&lt;/h6&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314021119.1">&lt;section&gt;
+<t tx="leo.20210314021119.1">&lt;section data-transition="slide" data-background="#800000" data-background-transition="convex"&gt;
 &lt;h3&gt;不採用&lt;/h3&gt;
 &lt;h6&gt;優點:編輯完直接案就能轉靜態，不須打程式指令&lt;/h6&gt;
 
 &lt;h6&gt;缺點:少會一種編輯方式&lt;/h6&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314021850.1">&lt;section&gt;
+<t tx="leo.20210314021850.1">&lt;section data-transition="slide" data-background="#800000" data-background-transition="convex"&gt;
 &lt;h3&gt;結論&lt;/h3&gt;
 &lt;h4&gt;在使用LEO EDITOR上能夠方便清楚的知道自己每個頁面的排版、位置，來幫助自己來編輯網頁，還有簡報和論壇的功能，怎麼想都是使用LEO EDITOR較好。&lt;/h4&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314022345.1">&lt;section&gt;
+<t tx="leo.20210314022345.1">&lt;section data-transition="slide" data-background="#696969" data-background-transition="convex"&gt;
 &lt;h2&gt;心得&lt;/h2&gt;
 &lt;h4&gt;經過這次的2人協同，我學到了利用倉儲來達成2個人一起維護倉儲的方法，也透過合作來完成小組作業，有問題就互相幫忙，但現在還只是2個人維護1個倉儲，之後還有4人、8人，甚至以後業界1、2百人的時候，困難度就更高了，所以要搞清楚基本的知識，以後遇到問題才能解決。&lt;/h4&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20210314154231.1">&lt;section&gt;
+<t tx="leo.20210314154231.1">&lt;section data-transition="slide" data-background="#696969" data-background-transition="convex"&gt;
 &lt;h5&gt;參考資料&lt;/h5&gt;
 &lt;h6&gt;掃地機器人&lt;/h6&gt;
 &lt;h6&gt;1.&lt;a href="https://i.epochtimes.com/assets/uploads/2019/05/sweep-robot_292501286-600x400.jpg"&gt;https://i.epochtimes.com/assets/uploads/2019/05/sweep-robot_292501286-600x400.jpg&lt;/a&gt;&lt;/h6&gt;
@@ -412,15 +427,40 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20210314163936.1">&lt;section&gt;
+<t tx="leo.20210314163936.1">&lt;section data-transition="slide" data-background="#9400D3" data-background-transition="convex"&gt;
 &lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/CS-2.png" width="300"/&gt;&lt;img alt="" height="300" src="./../images/CS-4.png" width="300"/&gt;&lt;/p&gt;
 &lt;h4&gt;設定物體&lt;/h4&gt;
 &lt;/section&gt;</t>
-<t tx="leo.20210314164211.1">&lt;section&gt;
+<t tx="leo.20210314164211.1">&lt;section data-transition="slide" data-background="#9400D3" data-background-transition="convex"&gt;
 &lt;h2&gt;CoppeliaSim模擬&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="" height="300" src="./../images/CS-3.png" width="300"/&gt;&lt;img alt="" height="300" src="./../images/CS-5.png" width="300"/&gt;&lt;/p&gt;
 &lt;h4&gt;設定馬達&lt;/h4&gt;
 &lt;/section&gt;</t>
+<t tx="leo.20210317224500.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
+     @others
+&lt;/section&gt;
+</t>
+<t tx="leo.20210317224600.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
+     @others
+&lt;/section&gt;
+</t>
+<t tx="leo.20210317224603.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
+     @others
+&lt;/section&gt;
+</t>
+<t tx="leo.20210317225202.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
+     @others
+&lt;/section&gt;
+</t>
+<t tx="leo.20210317225211.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
+     @others
+&lt;/section&gt;
+</t>
 </tnodes>
 </leo_file>

@@ -24,79 +24,91 @@
 <div class="reveal">
     <!-- Any section element inside of this container is displayed as a slide -->
     <div class="slides">
-        <section>
-            <h1>協同產品設計實習</h1>
-            <h2>stage1-bg1</h2>
-            <p>
-                <small>Created by <a href="https://github.com/40823245/stage1-bg1">40823245</a> and <a href="https://github.com/40823251/stage1-bg1">40823251</a></small>
-            </p>
-        </section>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#696969" data-background-transition="convex">
+                 <h1>協同產品設計實習</h1>
+                 <h2>stage1-bg1</h2>
+                 <p>
+                     <small>Created by <a href="https://github.com/40823245/stage1-bg1">40823245</a> and <a href="https://github.com/40823251/stage1-bg1">40823251</a></small>
+                 </p>
+             </section>
 
-        <section>
-            <h2>掃地機器人</h2>
-            <p><img alt="" height="300" src="./../images/SR.png" width="300"/><img alt="" height="300" src="./../images/SR-1.png" width="300"/></p>
-            <h4>動機:利用自動化機械結構來滿足靠人力打掃家中的需求，並實現節省時間及勞力的願景。</h4>
         </section>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#696969" data-background-transition="convex">
+                 <h2>掃地機器人</h2>
+                 <p><img alt="" height="300" src="./../images/SR.png" width="300"/><img alt="" height="300" src="./../images/SR-1.png" width="300"/></p>
+                 <h4>動機:利用自動化機械結構來滿足靠人力打掃家中的需求，並實現節省時間及勞力的願景。</h4>
+             </section>
 
-        <section>
-        <h1>構造原理</h1>
-        <h2>使用前面2個葉片將垃圾灰塵等細屑掃入後方的滾軸，由滾軸將其帶入內部，由1個前輪和1組連通軸輪帶動整部機器前進</h2>
         </section>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#696969" data-background-transition="convex">
+             <h1>構造原理</h1>
+             <h2>使用前面2個葉片將垃圾灰塵等細屑掃入後方的滾軸，由滾軸將其帶入內部，由1個前輪和1組連通軸輪帶動整部機器前進</h2>
+             </section>
 
-        <section>
-             <section>
+        </section>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#008080" data-background-transition="convex">
              <h2>結構零件圖</h2>
              <h3>本體(body)</h3>
              <p><img alt="" height="300" src="./../images/SR.png" width="300"/></p>
              <h5>掃地機器人的身體，藉由身上的凹槽感測身邊有無障礙物</h5>
              </section>
 
-             <section>
+             <section data-transition="slide" data-background="#008080" data-background-transition="convex">
              <h3>葉片(Fan)</h3>
              <p><img alt="" height="300" src="./../images/SR-3.png" width="300"/></p>
              <h5>將垃圾灰塵等掃入的主要零件，由3隻刷子構成</h5>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#008080" data-background-transition="convex">
              <h3>前輪(Front Wheel)</h3>
              <p><img alt="" height="300" src="./../images/SR-4.png" width="300"/></p>
              <h5>支撐本體前面並帶動前進</h5>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#008080" data-background-transition="convex">
              <h3>內部滾輪(Internal Scroll Wheel)</h3>
              <p><img alt="" height="300" src="./../images/SR-5.png" width="300"/></p>
              <h5>把東西掃入和移除的構造</h5>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#008080" data-background-transition="convex">
              <h3>後輪(Back Wheel)</h3>
              <p><img alt="" height="300" src="./../images/SR-6.png" width="300"/></p>
              <h5>帶動本體前進的主要來源</h5>
              </section>
         </section>
-        <section>
-             <section>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#9400D3" data-background-transition="convex">
              <h2>CoppeliaSim模擬</h2>
              <p><img alt="" height="300" src="./../images/CS.png" width="200"/></p>
              <small>body→本體    FMotor→前馬達   FWheel→前輪   LBMotor→右後馬達    LBWheel→右後輪子    LMotor→左(葉片)馬達    LFan→左葉片   MMotor→中間的馬達    MAxis→中間的軸    RBMotor→右後(葉片)馬達    RBWheel→右後輪   RMotor→右(葉片)馬達   RFan→右葉片</small>
              </section>
 
-             <section>
+             <section data-transition="slide" data-background="#9400D3" data-background-transition="convex">
              <h2>CoppeliaSim模擬</h2>
              <p><img alt="" height="300" src="./../images/CS-1.png" width="500"/></p>
              <h4>使用這3個按鈕移動位置和旋轉</h4>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#9400D3" data-background-transition="convex">
              <h2>CoppeliaSim模擬</h2>
              <p><img alt="" height="300" src="./../images/CS-2.png" width="300"/><img alt="" height="300" src="./../images/CS-4.png" width="300"/></p>
              <h4>設定物體</h4>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#9400D3" data-background-transition="convex">
              <h2>CoppeliaSim模擬</h2>
              <p><img alt="" height="300" src="./../images/CS-3.png" width="300"/><img alt="" height="300" src="./../images/CS-5.png" width="300"/></p>
              <h4>設定馬達</h4>
              </section>
         </section>
-        <section>
-             <section>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#8B4513" data-background-transition="convex">
              <h2>CoppeliaSim模擬</h2>
              <h5>3/6初次模擬</h5>
              <h6>第1版</h6>
@@ -104,112 +116,121 @@
              <h6>問題:前面無任何支撐物，所以導致本體一直前頃</h6>
              </section>
 
-             <section>
+             <section data-transition="slide" data-background="#8B4513" data-background-transition="convex">
              <h5>3/6二次模擬</h5>
              <h6>第2版</h6>
              <p><img alt="" height="300" src="./../images/Second-ver.gif" width="600"/></p>
              <h6>問題:雖然增加了支撐物，但會影響前進</h6>
              </section>
 
-             <section>
+             <section data-transition="slide" data-background="#8B4513" data-background-transition="convex">
              <h5>3/6三次模擬</h5>
              <h6>第3版</h6>
              <p><img alt="" height="300" src="./../images/Third-ver.gif" width="600"/></p>
              <h6>將支撐物改為輪子，但因前後輪馬達不一致，導致打轉的情況</h6>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#8B4513" data-background-transition="convex">
              <h5>3/7四次模擬</h5>
              <h6>第4版(最終版)</h6>
              <p><img alt="" height="300" src="./../images/Fourth-ver.gif" width="600"/></p>
              <h6>能夠正常前進，葉片和內部滾輪也運作正常</h6>
              </section>
         </section>
-        <section>
-             <section>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#006400" data-background-transition="convex">
              <h2>問題!小組倉儲維護</h2>
              <h3>主旨</h3>
              <h6>由組長和組員一同維護小組倉儲，各自推送各自所做的部分，但是我們卻沒有同步，導致只有組長的倉儲有在運作</h6>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#006400" data-background-transition="convex">
              <h2>解決方法</h2>
              <h6>創建1個新的空倉儲(因為本人為組長，所以新辦1個github帳號做步驟)</h6>
              <h6><span>Repository name輸入名稱，什麼都不要選直接create</span></h6>
              <p><img alt="" height="300" src="./../images/remote.png" width="500"/></p>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#006400" data-background-transition="convex">
              <h6>進到tmp執行git clone --recurse-submodules 小組網址(因我tmp有stage1-bg1了，所以直接在data做)</h6>
              <p><img alt="" height="300" src="./../images/remote-1.png" width="500"/></p>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#006400" data-background-transition="convex">
              <h6>進到資料夾，執行git remote add 「remote名稱」 個人github倉儲網址.git(剛剛創的空倉儲)</h6>
              <p><img alt="" height="50" src="./../images/remote-2.png" width="550"/></p>
              <h6>可看到多了remote(如有做ssh，請自行在remote底下新增，我用新帳號所以沒有使用)</h6>
              <p><img alt="" height="300" src="./../images/remote-5.png" width="400"/></p>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#006400" data-background-transition="convex">
              <h6>執行git push 剛剛「remote名稱」</h6>
              <p><img alt="" height="200" src="./../images/remote-3.png" width="500"/></p>
              <h4>成功後到settings設定</h4>
              <p><img alt="" height="200" src="./../images/remote-7.png" width="700"/></p>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#006400" data-background-transition="convex">
              <h6>把branch設為main並save</h6>
              <p><img alt="" height="200" src="./../images/remote-4.png" width="700"/></p>
              <h4>回去看是否有綠勾</h4>
              <p><img alt="" height="200" src="./../images/remote-6.png" width="700"/></p>
              </section>
         </section>
-        <section>
-             <section>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#00008B" data-background-transition="convex">
              <h2>分組有效方案</h2>
              <h3>我認為自選組員比亂數分組好很多，因為自選的組員都是互相有共識才會同意一起做協同，但是利用人工的方式分組太耗費精神和人力了，所以需要藉由程式來代工，但是用程式來亂數分組就可能造成合作上的困擾，希望能找到解決辦法。</h3>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#00008B" data-background-transition="convex">
              <h6>40823245測試分組程式</h6>
              <p><img alt="" height="400" src="./../images/group text.png" width="700"/></p>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#00008B" data-background-transition="convex">
              <h6>40823245測試分組程式</h6>
              <p><img alt="" height="400" src="./../images/group text-1.png" width="700"/></p>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#00008B" data-background-transition="convex">
              <h6>由上圖可知，我們能藉由Redis、nodejs和ethercalc來跑人工分組的程式，但還是需要改善，可能有人沒有組別要加到別組或學號的跑程式問題。</h6>
              </section>
         </section>
-        <section>
-             <section>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#800000" data-background-transition="convex">
              <h2>Leo Editor的採用?</h2>
              <h3>採用</h3>
              <h6>優點:能夠留下作變更的時間、操作分頁明確、使用reveal還能當簡報、能連結到自己的論壇</h6>
 
              <h6>缺點:上傳前要跑程式指令(local-blog、github-blog)、如2人以上同時使用，可能會造成頁面ERROR</h6>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#800000" data-background-transition="convex">
              <h3>不採用</h3>
              <h6>優點:編輯完直接案就能轉靜態，不須打程式指令</h6>
 
              <h6>缺點:少會一種編輯方式</h6>
              </section>
-             <section>
+             <section data-transition="slide" data-background="#800000" data-background-transition="convex">
              <h3>結論</h3>
              <h4>在使用LEO EDITOR上能夠方便清楚的知道自己每個頁面的排版、位置，來幫助自己來編輯網頁，還有簡報和論壇的功能，怎麼想都是使用LEO EDITOR較好。</h4>
              </section>
         </section>
-        <section>
-        <h2>心得</h2>
-        <h4>經過這次的2人協同，我學到了利用倉儲來達成2個人一起維護倉儲的方法，也透過合作來完成小組作業，有問題就互相幫忙，但現在還只是2個人維護1個倉儲，之後還有4人、8人，甚至以後業界1、2百人的時候，困難度就更高了，所以要搞清楚基本的知識，以後遇到問題才能解決。</h4>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#696969" data-background-transition="convex">
+             <h2>心得</h2>
+             <h4>經過這次的2人協同，我學到了利用倉儲來達成2個人一起維護倉儲的方法，也透過合作來完成小組作業，有問題就互相幫忙，但現在還只是2個人維護1個倉儲，之後還有4人、8人，甚至以後業界1、2百人的時候，困難度就更高了，所以要搞清楚基本的知識，以後遇到問題才能解決。</h4>
+             </section>
         </section>
-        <section>
-        <h5>參考資料</h5>
-        <h6>掃地機器人</h6>
-        <h6>1.<a href="https://i.epochtimes.com/assets/uploads/2019/05/sweep-robot_292501286-600x400.jpg">https://i.epochtimes.com/assets/uploads/2019/05/sweep-robot_292501286-600x400.jpg</a></h6>
-        <h6>2.<a href="https://i1.kknews.cc/SIG=3fkkqlh/47120001r47oqr0p4p5q.jpg">https://i1.kknews.cc/SIG=3fkkqlh/47120001r47oqr0p4p5q.jpg</a></h6>
-        <h6>CoppeliaSim基本操作</h6>
-        <h6><a href="https://www.bilibili.com/s/video/BV1yC4y1874J">https://www.bilibili.com/s/video/BV1yC4y1874J</a></h6>
-        <h6>版本衝突解決</h6>
-        <h6><a href="https://www.youtube.com/watch?v=0fKyPmNI1xg">https://www.youtube.com/watch?v=0fKyPmNI1xg</a></h6>
-        </section>
+        <!-- Example of nested vertical slides -->
+        <section data-transition="slide" data-background-transition="convex">
+             <section data-transition="slide" data-background="#696969" data-background-transition="convex">
+             <h5>參考資料</h5>
+             <h6>掃地機器人</h6>
+             <h6>1.<a href="https://i.epochtimes.com/assets/uploads/2019/05/sweep-robot_292501286-600x400.jpg">https://i.epochtimes.com/assets/uploads/2019/05/sweep-robot_292501286-600x400.jpg</a></h6>
+             <h6>2.<a href="https://i1.kknews.cc/SIG=3fkkqlh/47120001r47oqr0p4p5q.jpg">https://i1.kknews.cc/SIG=3fkkqlh/47120001r47oqr0p4p5q.jpg</a></h6>
+             <h6>CoppeliaSim基本操作</h6>
+             <h6><a href="https://www.bilibili.com/s/video/BV1yC4y1874J">https://www.bilibili.com/s/video/BV1yC4y1874J</a></h6>
+             <h6>版本衝突解決</h6>
+             <h6><a href="https://www.youtube.com/watch?v=0fKyPmNI1xg">https://www.youtube.com/watch?v=0fKyPmNI1xg</a></h6>
+             </section>
 
+        </section>
     </div>
 </div>
     <script src="dist/reveal.js"></script>
@@ -227,7 +248,6 @@
             progress: true,
             center: true,
             hash: true,
-
             // Learn about plugins: https://revealjs.com/plugins/
             plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
         });
