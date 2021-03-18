@@ -58,7 +58,8 @@
 <v t="leo.20210314013047.1"><vh>page7-1</vh></v>
 <v t="leo.20210314014907.1"><vh>page7-2</vh></v>
 <v t="leo.20210314015221.1"><vh>page7-3</vh></v>
-<v t="leo.20210314015350.1"><vh>page7-4</vh></v>
+<v t="leo.20210318180609.1"><vh>page7-4</vh></v>
+<v t="leo.20210314015350.1"><vh>page7-5</vh></v>
 </v>
 <v t="leo.20210314015825.1"><vh>page8</vh>
 <v t="leo.20210314015842.1"><vh>page8-1</vh></v>
@@ -473,6 +474,10 @@ vertical: body pane on the botton</t>
 <t tx="leo.20210318175252.1">&lt;section data-transition="slide" data-background="#696969" data-background-transition="convex"&gt;
 &lt;h5&gt;PDF&lt;/h5&gt;
 &lt;p&gt;&lt;iframe height="550" src="https://drive.google.com/file/d/1V4R23lYjQQquhTMuQr6aEqI7g0nQ0yg_/preview?usp=sharing" width="1000"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
+<t tx="leo.20210318180609.1">&lt;section data-transition="slide" data-background="#00008B" data-background-transition="convex"&gt;
+&lt;h6&gt;40823245測試分組程式&lt;/h6&gt;
+&lt;p&gt;&lt;img alt="" height="400" src="./../images/etherecalc.png" width="700"/&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 </tnodes>
 </leo_file>
