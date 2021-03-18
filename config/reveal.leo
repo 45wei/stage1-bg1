@@ -68,8 +68,11 @@
 <v t="leo.20210317225202.1"><vh>page9</vh>
 <v t="leo.20210314022345.1"><vh>page9-1</vh></v>
 </v>
-<v t="leo.20210317225211.1"><vh>page10</vh>
-<v t="leo.20210314154231.1"><vh>page10-1</vh></v>
+<v t="leo.20210318175244.1"><vh>page10</vh>
+<v t="leo.20210318175252.1"><vh>page10-1</vh></v>
+</v>
+<v t="leo.20210317225211.1"><vh>page11</vh>
+<v t="leo.20210314154231.1"><vh>page11-1</vh></v>
 </v>
 </v>
 </v>
@@ -462,5 +465,14 @@ vertical: body pane on the botton</t>
      @others
 &lt;/section&gt;
 </t>
+<t tx="leo.20210318175244.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section data-transition="slide" data-background-transition="convex"&gt;
+     @others
+&lt;/section&gt;
+</t>
+<t tx="leo.20210318175252.1">&lt;section data-transition="slide" data-background="#696969" data-background-transition="convex"&gt;
+&lt;h5&gt;PDF&lt;/h5&gt;
+&lt;p&gt;&lt;iframe height="550" src="https://drive.google.com/file/d/1V4R23lYjQQquhTMuQr6aEqI7g0nQ0yg_/preview?usp=sharing" width="1000"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;/section&gt;</t>
 </tnodes>
 </leo_file>
