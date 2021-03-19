@@ -473,7 +473,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20210318175252.1">&lt;section data-transition="slide" data-background="#696969" data-background-transition="convex"&gt;
 &lt;h5&gt;PDF&lt;/h5&gt;
-&lt;p&gt;&lt;iframe height="550" src="https://drive.google.com/file/d/1V4R23lYjQQquhTMuQr6aEqI7g0nQ0yg_/preview?usp=sharing" width="1000"&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;&lt;iframe data-src="2021-協同產品設計實習-stage1-bg1.pdf" width="800" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;&lt;/p&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20210318180609.1">&lt;section data-transition="slide" data-background="#00008B" data-background-transition="convex"&gt;
 &lt;h6&gt;40823245測試分組程式&lt;/h6&gt;
